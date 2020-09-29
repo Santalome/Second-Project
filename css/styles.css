@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'David Libre', serif;
+}
+
+/* HIDE */
+
+.hide{
+    display: none !important;
+}
+
+/* NAVIGATION */ 
+
+
+.main-header{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-header h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.header-list li{
+    width: 80%;
+    margin: 0px auto;
+    list-style: none;
+    background-color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header-list a{
+    text-decoration: none;
+    color: black;
+}
+
+/* BANNER */ 
+
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
+
+.banner img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/* CONTENT */
+
+.container{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container h1{
+    padding: 60px;
+    text-transform: uppercase;
+}
+
+.col img{
+    width: 90%;
+}
+
+.col h3{
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.col p{
+    padding-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+/* FOOTER */
+
+.main-footer{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer h3{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+#contact-info{
+    margin-bottom: 30px;
+}
+
+#email,
+#phone{
+    margin-top: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#email a{
+    font-weight: bold;
+    color: black;
+}
+
+#email{
+    padding-bottom: 60px;
+}
+
+.footer-list{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.footer-list li{
+    display: inline-block;
+}
+
+.footer-list li:first-child{
+    padding-right: 80px;
+    padding-top: 25px;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px){
+
+    .header-list li{
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .header-list{
+        padding-top: 10px;
+    }
+
+    .banner img{
+        float: right;
+        width: 40%;
+        margin-left: 25px;
+    }
+
+    .banner{
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .banner p{
+        text-align: justify;
+        font-size: 1.2em;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .col{
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .col img{
+        width: 95%;
+    }
+
+    #contact-info{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4em;
+        padding-bottom: 20px;
+    }
+
+    #phone,
+    #email{
+        font-size: 1.4em;
+    }
+
+    .hide{
+        display: inline !important;
+        padding-left: 20px;
+    }
+
+    #name{
+        padding-right: 35%;
+    }
+
+    #to-top{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px){
+    .header{
+        display: inline-block;
+    }
+
+    .main-header h2{
+        float: left;
+        margin-left: 50px;
+    }
+
+    .header-list{
+        float: right;
+    }
+
+    .banner{
+        padding-top: 50px;
+    }
+
+    .container h1{
+        font-size: 1.4em;
+    }
+
+    .col{
+        width: 30%;
+    }
+
+    #name{
+        padding-right: 60%;
+    }
+
+    #contact-info{
+        width: 40%;
+    }
+
+    .hide,
+    #name{
+        font-size: 1.3em;
+    }
+
+    .hide{
+        cursor: pointer;
+    }
+}
+
+
